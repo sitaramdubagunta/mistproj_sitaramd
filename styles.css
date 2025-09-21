@@ -27,7 +27,7 @@ header {
 }
 
 .main-logo {
-  height: 72px;
+  height: 100px;
   margin-left: 32px;
   animation: dropIn 1s ease-out forwards;
 }
