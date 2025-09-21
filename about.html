@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MIST | About Us</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="mist.jpg" alt="MIST Logo" class="main-logo animated-logo" />
+    <nav>
+      <a class="nav-btn" href="index.html">Home</a>
+      <a class="nav-btn" href="glazing.html">Glazing MIST</a>
+      <a class="nav-btn active" href="about.html">About Us</a>
+    </nav>
+  </header>
+  <main>
+    <section class="about-section fade-in">
+      <h1>Meet the MIST Team</h1>
+      <div class="about-grid">
+        <div class="about-card slide-left">
+          <img src="mist.jpg" alt="Core Logo" />
+          <h2>Vision</h2>
+          <p>Empowering the next generation with the skills, confidence, and mindset to innovate.</p>
+        </div>
+        <div class="about-card slide-left delay-1">
+          <img src="2.jpg" alt="Gallery Img 2" />
+          <h2>Passion</h2>
+          <p>Driven by relentless curiosity and collaboration, MIST brings ideas to life in spectacular ways.</p>
+        </div>
+        <div class="about-card slide-left delay-2">
+          <img src="3.jpg" alt="Gallery Img 3" />
+          <h2>Community</h2>
+          <p>Diverse, inclusive, and welcoming—everyone has a place in MIST’s family.</p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery-page fade-in delay-3">
+      <h2>Image Gallery</h2>
+      <div class="gallery">
+        <div class="gallery-item pop-in">
+          <img src="mist.jpg" alt="Gallery Main" />
+          <div class="desc">Main club logo</div>
+        </div>
+        <div class="gallery-item pop-in delay-1">
+          <img src="2.jpg" alt="Gallery Art 2" />
+          <div class="desc">Event abstract - 2025</div>
+        </div>
+        <div class="gallery-item pop-in delay-2">
+          <img src="3.jpg" alt="Gallery Art 3" />
+          <div class="desc">The creative journey continues</div>
+        </div>
+      </div>
+    </section>
+    <section class="toggle-message-sec fade-in delay-4">
+      <button class="triangle-btn pulse" onclick="toggleText()">click me</button>
+      <span id="toggleText" style="display:none;">YOU CLICKED THE BUTTON YAYYY!!!</span>
+      <div class="toggle-hint">(Click the button to show/hide the text)</div>
+    </section>
+  </main>
+  <footer>
+    <p>Contact: hello@mist.com | IG: @mistinnovators</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
